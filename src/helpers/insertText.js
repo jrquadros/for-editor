@@ -35,16 +35,16 @@ function insert($vm, prefix, hint = '', subfix = '') {
 
 const toolbar = {
   h1($vm) {
-    insert($vm, '# ', '一级标题')
+    insert($vm, '# ', 'Título 1')
   },
   h2($vm) {
-    insert($vm, '## ', '二级标题')
+    insert($vm, '## ', 'Título 2')
   },
   h3($vm) {
-    insert($vm, '### ', '三级标题')
+    insert($vm, '### ', 'Título 3')
   },
   h4($vm) {
-    insert($vm, '#### ', '四级标题')
+    insert($vm, '#### ', 'Título 4')
   },
   image($vm) {
     insert($vm, '![alt](', 'url', ')')
