@@ -26,7 +26,7 @@ class MdEditor extends React.Component {
   }
 
   static defaultProps = {
-    placeholder: '请输入内容...',
+    placeholder: '',
     lineNum: true
   }
 
