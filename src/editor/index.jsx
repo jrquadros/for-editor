@@ -26,7 +26,7 @@ class MdEditor extends React.Component {
   }
 
   static defaultProps = {
-    placeholder: '',
+    placeholder: 'Digite o conteúdo do elemento...',
     lineNum: true
   }
 
